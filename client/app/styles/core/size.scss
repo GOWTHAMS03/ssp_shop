@@ -1,0 +1,43 @@
+.size-dashboard {
+  .b-list {
+    .size-box {
+      height: 100%;
+      border-radius: $border-radius-default;
+      box-shadow: $box-shadow-secondary;
+      @include transition();
+
+      &:hover {
+        background-color: $secondary-bg;
+        @include transition();
+      }
+
+      .size-desc {
+        @include text-ellipsis(2);
+      }
+    }
+  }
+}
+
+.size-list {
+  .size-box {
+    height: 100%;
+    padding: 10px;
+    border: $border-default;
+    border-radius: $border-radius-default;
+    @include transition();
+
+    .size-link {
+      display: block;
+    }
+
+    &:hover {
+      background-color: $secondary-bg;
+      border-color: $border-hover-color;
+      @include transition();
+    }
+
+    .size-desc {
+      @include text-ellipsis(2);
+    }
+  }
+}

@@ -1,0 +1,45 @@
+// .homepage {
+
+    .parent-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin-top: 20px;
+          margin-bottom: 20px;
+          
+      }
+      
+      .mini-size-block {
+        &.round-2 {
+          margin-top: 20px;
+          margin-bottom: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+      
+          .size-item {
+            border-radius: 20%;
+            background-color: $theme-blue;
+            height: 5rem;
+            width: 5rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: $theme-purple;
+            .size-text{
+                color:aliceblue
+    
+              }
+          }
+          
+        }
+      }
+      
+      
+      
+      
+
+// }

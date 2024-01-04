@@ -1,0 +1,8 @@
+{
+  "serviceworker": {
+    "src": "/service-worker.js",
+    "scope": "/",
+    "update_via_cache": "none",
+    "registration_scope": "/"
+  }
+}
